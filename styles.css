@@ -1,0 +1,80 @@
+  body {
+    background: linear-gradient(135deg, #e6c0f1, #f8f9fa);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+.navbar {
+    background: #953077;
+}
+
+.auth-container {
+    max-width: 480px;
+    margin: 90px auto;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+    background: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card-title {
+    color: #932d94;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #ad437a;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #9a43bf;
+}
+
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #157347;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #f1f3f5;
+    color: #000000;
+    border-color: #fd0d9d;
+}
+
+.hidden {
+    display: none;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
+
+#welcome-container .card-title {
+    color: #198754;
+}
+
+#welcome-message {
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+input.form-control:focus {
+    border-color: #a02870;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
